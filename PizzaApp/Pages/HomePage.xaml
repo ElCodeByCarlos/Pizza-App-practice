@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PizzaApp.Pages.HomePage"
+             Title="Pizza World">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Border StrokeShape="RoundRectangle 10"
+                    StrokeThickness="0"
+                    BackgroundColor="Goldenrod"
+                    VerticalOptions="Start"
+                    Padding="15">
+                
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

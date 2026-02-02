@@ -23,8 +23,35 @@
         <!-- Minute 23 -->
 
         <VerticalStackLayout Grid.Row="2"
-                             Spacing="10">
-            <Label Text="Italian Pizza"/>
+                             Spacing="15">
+            <Label Text="Italian Pizza"
+                   FontSize="40"
+                   FontAttributes="Bold"/>
+            <Label Text="Feel the taste of ketchup on pizza"
+                   FontSize="18"
+                   LineHeight="1.2"/>
+            <Border StrokeShape="RoundRectangle 25"
+                    StrokeThickness="0"
+                    BackgroundColor="DarkGoldenrod"
+                    HeightRequest="50">
+
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Border.GestureRecognizers>
+                
+                <HorizontalStackLayout HorizontalOptions="Center"
+                                       VerticalOptions="Center"
+                                       Spacing="10"
+                                       Padding="0,5">
+                    <Label Text="Get Started"
+                           VerticalOptions="Center"
+                           FontSize="18"/>
+                    <Image Source="right_arrow.png"
+                           VerticalOptions="Center"
+                           HeightRequest="30"/>
+                </HorizontalStackLayout>
+            </Border>
+
         </VerticalStackLayout>
 
     </Grid>
