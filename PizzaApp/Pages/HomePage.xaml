@@ -10,7 +10,7 @@
                     BackgroundColor="Goldenrod"
                     VerticalOptions="Start"
                     Padding="15">
-                
+                <!-- Min 33:30 -->
             </Border>
         </VerticalStackLayout>
     </ScrollView>
